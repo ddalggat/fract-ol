@@ -6,7 +6,7 @@
 /*   By: gjailbir <gjailbir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/25 20:25:45 by gjailbir          #+#    #+#             */
-/*   Updated: 2021/10/26 20:48:04 by gjailbir         ###   ########.fr       */
+/*   Updated: 2021/10/29 18:56:23 by gjailbir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,7 +53,7 @@ void	init_variables(t_fract *fracts)
 	fracts->factor = init_complex(
 			(fracts->max.re - fracts->min.re) / (WIDTH - 1),
 			(fracts->max.im - fracts->min.im) / (HEIGHT - 1));
-	fracts->max_iteration = 100;
+	fracts->max_iteration = 50;
 }
 
 static	int	ft_parse(t_fract *fracts, char *arg)

@@ -6,7 +6,7 @@
 /*   By: gjailbir <gjailbir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/25 20:26:11 by gjailbir          #+#    #+#             */
-/*   Updated: 2021/10/26 20:42:51 by gjailbir         ###   ########.fr       */
+/*   Updated: 2021/10/29 18:59:02 by gjailbir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,9 +35,9 @@ int	ft_get_colors(double t)
 	int	green;
 	int	blue;
 
-	red = (int)(t * 1000);
-	green = (int)(t * 210);
-	blue = (int)(t * 350);
+	red = (int)(t * 200);
+	green = (int)(t * 910);
+	blue = (int)(t * 950);
 	return ((int)t << 24 | red << 16 | green << 8 | blue);
 }
 
